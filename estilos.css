@@ -2,21 +2,45 @@ body {
     background-image: url(https://i0.wp.com/cdn.hipwallpaper.com/i/79/96/aozweG.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    }
+}
 
-h1 {
+.titulo {
     color: rgb(255, 255, 255);
     font-family: Kiwi Maru;
     text-align: center;
-    animation: fadeInDown;
+    animation: fadeInLeft;
+    animation-duration: 2s;
+}
+
+.horarios {
+    color: rgb(255, 255, 255);
+    font-family: Kiwi Maru;
+    text-align: center;
+    animation: flipInX;
+    animation-duration: 2s;
+}
+
+.entrenamiento {
+    color: rgb(255, 255, 255);
+    font-family: Kiwi Maru;
+    text-align: center;
+    animation: rollIn;
+    animation-duration: 2s;
+}
+
+.quienesSomos {
+    color: rgb(255, 255, 255);
+    font-family: Kiwi Maru;
+    text-align: center;
+    animation: jackInTheBox;
     animation-duration: 2s;
 }
 
 .navegacion {
     width: 700px;
     margin: 5px auto;
-    background-color:black;
-    }
+    background-color: black;
+}
 
 .navegacion ul {
     list-style: none;
@@ -68,7 +92,9 @@ h1 {
     font-family: Kiwi Maru;
     font-weight: bold;
     display: flex;
-    justify-content: center;    
+    justify-content: center;
+    animation: fadeInLeft;
+    animation-duration: 2s;
 }
 
 p {
@@ -76,9 +102,9 @@ p {
 }
 
 .contamosCon {
-    color:white;
+    color: white;
     font-family: Kiwi Maru;
-    }
+}
 
 .introHistoria {
     color: white;
@@ -103,23 +129,28 @@ label {
 }
 
 .tituloContact {
-    color: white;
+    color: rgb(255, 255, 255);
+    font-family: Kiwi Maru;
+    text-align: center;
+    animation: bounceIn;
+    animation-duration: 2s;
+
 }
 
 .formulario {
     font-family: Kiwi Maru;
     display: flex;
     justify-content: center;
-    }
+}
 
 footer {
     font-style: italic;
     font-weight: normal;
     font-size: 5px;
     text-align: center;
-    background-color:#343A40;
+    background-color: #343A40;
     color: white;
-    }
+}
 
 .disponibilidad {
     color: rgb(255, 255, 255);
@@ -136,6 +167,8 @@ footer {
 }
 
 .tabla {
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
 
@@ -149,33 +182,51 @@ footer {
 .Principiante {
     color: rgb(255, 255, 255);
     font-family: Kiwi Maru;
+    animation: zoomIn;
+    animation-duration: 2s;
+
 }
 
 .Intermedia {
     color: rgb(255, 255, 255);
     font-family: Kiwi Maru;
+    animation: zoomIn;
+    animation-duration: 2s;
 }
 
 .Avanzado {
     color: rgb(255, 255, 255);
     font-family: Kiwi Maru;
+    animation: zoomIn;
+    animation-duration: 2s;
 }
 
 .nuestrosEntre {
-    color: black;
-    
+    color: white;
 }
 
 .parrafoPrinc {
-    color: black;
+    color: white;
+    animation: zoomIn;
+    animation-duration: 2s;
 }
 
 .parrafoInter {
-    color: black;
+    color: white;
+    animation: zoomIn;
+    animation-duration: 2s;
 }
 
 .parrafoAvanz {
-    color: black;
+    color: white;
+    animation: zoomIn;
+    animation-duration: 2s;
+}
+
+.nosotros {
+    color: white;
+    animation: slideInRight;
+    animation-duration: 2s;
 }
 
 .contenidoMultimedia {
@@ -200,7 +251,7 @@ footer {
     width: 600px;
     font-family: Kiwi Maru;
     font-weight: bold;
-    }
+}
 
 img {
     max-width: 99%;
@@ -218,23 +269,35 @@ img {
     }
 }
 
-.footer{
+.footer {
     font-style: italic;
     font-weight: normal;
     font-size: 5px;
     text-align: center;
-    background-color:#343A40;
+    background-color: #343A40;
     color: white;
-    position: absolute;
-    bottom: 0;
     width: 100%;
     height: 40px;
 }
 
-.navbar{
+.navbar {
     font-family: Kiwi Maru;
     font-size: 100%;
     padding: 5px;
-    padding-left: 25%;
-    }
+    padding-left: 15%;
+}
 
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    animation: bounceInRight;
+    animation-duration: 2s;
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
