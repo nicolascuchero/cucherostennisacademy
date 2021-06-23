@@ -1,0 +1,68 @@
+INDEX.HTML
+
+Agregué en el index.html el SEO con las siguientes características:
+PALABRAS CLAVE: agregue las siguientes keywords: "TENNIS" , "ACADEMY" , "TRAINING".
+
+AUTOR: agregué el meta name="author" con mi nombre: "NICOLAS CUCHERO".
+
+DESCRIPCIÓN: agregué la siguiente descripción mediante la meta name="description": "TE PRESENTAMOS LA MEJOR ACADEMIA DE ARGENTINA Y SUDAMERICA, AL ALCANCE DE TUS MANOS" la hice lo mas corta y consisa asi queda bien clara y simple.
+
+ALT: use alt en una foto con el siguiente texto: "foto-academia".
+
+ENCABEZADO: mediante el h1 utilicé el siguiente texto: "CUCHERO'S TENNIS ACADEMY".
+
+
+CLASES.HTML
+
+Agregué en clases.html el SEO con las siguientes características:
+
+ENCABEZADO: mediante el h1 utilicé el siguiente texto: "NUESTROS HORARIOS DISPONIBLES".
+
+DESCRIPCIÓN: agregué la siguiente descripción: "LA MEJOR ORGANIZACIÓN DE CLASES TE LA DAMOS EN LA ACADEMIA"
+
+AUTOR: agregué el meta name="author" con mi nombre: "NICOLAS CUCHERO".
+
+
+CONTACTO.HTML
+
+Agregué en contacto.html el SEO con las siguientes características:
+
+ENCABEZADO: mediante el h1 utilicé el siguiente texto: "Queres recibir toda la información de la Academia? Contactanos!!".
+
+DESCRIPCIÓN: agregué la siguiente descripción: "Cuando quieras y donde quieras nos podes contactar de una manera simple y facil"
+
+AUTOR: agregué el meta name="author" con mi nombre: "NICOLAS CUCHERO".
+
+TEXTOS: utilicé textos cortos y claros para que el usuario sepa qué está mirando y así lo comprenda mas rápido y fácil.
+
+
+ENTRENAMIENTO.HTML
+
+Agregué en entrenamiento.html el SEO con las siguientes características:
+
+ENCABEZADO: mediante el h1 utilicé el siguiente texto: "Te mostramos nuestro entrenamiento por categorias".
+
+DESCRIPCIÓN: agregué la siguiente descripción: "Te mostramos nuestras categorías con una linda descripción".
+
+AUTOR: agregué el meta name="author" con mi nombre: "NICOLAS CUCHERO".
+
+NOSOTROS.HTML
+
+Agregué en nosotros.html el SEO con las siguientes características:
+
+ENCABEZADO: mediante el h1 utilicé el siguiente texto: "Quienes somos?".
+
+DESCRIPCIÓN: agregué la siguiente descripción: "Te contamos quienes somos y todo sobre nuestra historia"
+
+AUTOR: agregué el meta name="author" con mi nombre: "NICOLAS CUCHERO".
+
+VINCULOS: usé vinculos o links cuando puse algun video o alguna imagen.
+
+
+
+
+
+
+
+
+
