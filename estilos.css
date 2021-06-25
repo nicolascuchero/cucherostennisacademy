@@ -36,57 +36,6 @@ body {
     animation-duration: 2s;
 }
 
-.navegacion {
-    width: 700px;
-    margin: 5px auto;
-    background-color: black;
-}
-
-.navegacion ul {
-    list-style: none;
-}
-
-.menu>li {
-    position: relative;
-    display: inline-block;
-}
-
-.menu>li>a {
-    display: block;
-    padding: 15px 20px;
-    color: white;
-    font-family: Kiwi Maru;
-    text-decoration: none;
-    font-weight: bold;
-    transition: all .3s;
-}
-
-.menu li a:hover {
-    color: #254ac5;
-}
-
-.submenu {
-    position: absolute;
-    background: black;
-    width: 120%;
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity 1.5s;
-}
-
-.submenu li a {
-    display: block;
-    padding: 15px;
-    color: #fff;
-    font-family: Kiwi Maru;
-    text-decoration: none;
-}
-
-.menu li:hover .submenu {
-    visibility: visible;
-    opacity: 1;
-}
-
 .veniEntrenar {
     color: rgb(0, 8, 10);
     font-family: Kiwi Maru;
@@ -95,15 +44,6 @@ body {
     justify-content: center;
     animation: fadeInLeft;
     animation-duration: 2s;
-}
-
-p {
-    font-family: Kiwi Maru;
-}
-
-.contamosCon {
-    color: white;
-    font-family: Kiwi Maru;
 }
 
 .introHistoria {
@@ -143,15 +83,6 @@ label {
     justify-content: center;
 }
 
-footer {
-    font-style: italic;
-    font-weight: normal;
-    font-size: 5px;
-    text-align: center;
-    background-color: #343A40;
-    color: white;
-}
-
 .disponibilidad {
     color: rgb(255, 255, 255);
     text-align: center;
@@ -160,10 +91,6 @@ footer {
 
 .horarios {
     color: rgb(255, 255, 255);
-}
-
-.video {
-    width: 600px;
 }
 
 .tabla {
@@ -241,21 +168,6 @@ footer {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-}
-
-.grid {
-    margin: 1em 0;
-    border: 3px solid rgb(0, 0, 0);
-    display: grid;
-    grid-template-columns: fit-content(300px) 1fr;
-    width: 600px;
-    font-family: Kiwi Maru;
-    font-weight: bold;
-}
-
-img {
-    max-width: 99%;
-    display: block;
 }
 
 .footer {

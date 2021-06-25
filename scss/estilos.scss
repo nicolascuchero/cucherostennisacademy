@@ -11,225 +11,265 @@ $widthvid: 500px;
 
 
 body {
-    background-image: url(https://i0.wp.com/cdn.hipwallpaper.com/i/79/96/aozweG.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-image: url(https://i0.wp.com/cdn.hipwallpaper.com/i/79/96/aozweG.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.titulo {
+  color: rgb(255, 255, 255);
+  font-family: Kiwi Maru;
+  text-align: center;
+  animation: fadeInLeft;
+  animation-duration: 2s;
+}
+
+.horarios {
+  color: rgb(255, 255, 255);
+  font-family: Kiwi Maru;
+  text-align: center;
+  animation: flipInX;
+  animation-duration: 2s;
+}
+
+.entrenamiento {
+  color: rgb(255, 255, 255);
+  font-family: Kiwi Maru;
+  text-align: center;
+  animation: rollIn;
+  animation-duration: 2s;
+}
+
+.quienesSomos {
+  color: rgb(255, 255, 255);
+  font-family: Kiwi Maru;
+  text-align: center;
+  animation: jackInTheBox;
+  animation-duration: 2s;
+}
+
+.veniEntrenar {
+  color: rgb(0, 8, 10);
+  font-family: Kiwi Maru;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  animation: fadeInLeft;
+  animation-duration: 2s;
+}
+
+.introHistoria {
+  color: white;
+  font-family: Kiwi Maru;
+  font-size: 2vh;
+}
+
+tr {
+  th {
+    color: goldenrod;
   }
-  
-  h1 {
-    color: $colorh1;
-    font-family: $font;
-    text-align: center;
-    animation: fadeInDown;
-    animation-duration: 2s;
-  }
-  
-  .navegacion {
-    width: $widthnav;
-    margin: 5px auto;
-  
-    ul {
-      list-style: none;
-    }
-  }
-  
-  .menu {
-    > li {
-      @include tamanio(relative, inline-block);
-  
-      > a {
-        display: block;
-        padding: 15px 20px;
-        color: black;
-        font-family: $font;
-        text-decoration: none;
-        font-weight: bold;
-        transition: all .3s;
-      }
-    }
-  
-    li a:hover {
-      color: #CE7D35;
-    }
-  }
-  
-  .submenu {
-    position: $positionsub;
-    background: black;
-    width: 120%;
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity 1.5s;
-  
-    li a {
-      display: block;
-      padding: 15px;
-      color: #fff;
-      font-family: $font;
-      text-decoration: none;
-    }
-  }
-  
-  .menu li:hover .submenu {
-    visibility: visible;
-    opacity: 1;
-  }
-  
-  .veniEntrenar {
-    color: rgb(0, 8, 10);
-    font-family: $font;
-    font-weight: bold;
-    display: $displayveni;
-    justify-content: center;
-  }
-  
-  p {
-    font-family: $font;
-  }
-  
-  .contamosCon {
-    color: white;
-    font-family: $font;
-  }
-  
-  .introHistoria {
-    color: rgb(242, 247, 242);
-    font-family: $font;
-    line-height: 2.5;
-  }
-  
-  tr {
-    th {
-      color: goldenrod;
-    }
-  
-    td {
-      color: honeydew;
-    }
-  }
-  
-  legend, label {
+
+  td {
     color: honeydew;
   }
-  
-  .tituloContact {
-    color: rgb(255, 255, 255);
+}
+
+legend, label {
+  color: honeydew;
+}
+
+.tituloContact {
+  color: rgb(255, 255, 255);
+  font-family: Kiwi Maru;
+  text-align: center;
+  animation: bounceIn;
+  animation-duration: 2s;
+}
+
+.formulario {
+  font-family: Kiwi Maru;
+  display: flex;
+  justify-content: center;
+}
+
+.disponibilidad {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: Kiwi Maru;
+}
+
+.horarios {
+  color: rgb(255, 255, 255);
+}
+
+.tabla {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.teMostramos {
+  color: rgb(255, 255, 255);
+  font-family: Kiwi Maru;
+  text-align: center;
+  font-weight: bold;
+}
+
+.Principiante, .Intermedia, .Avanzado {
+  color: rgb(255, 255, 255);
+  font-family: Kiwi Maru;
+  animation: zoomIn;
+  animation-duration: 2s;
+}
+
+.nuestrosEntre {
+  color: white;
+}
+
+.parrafoPrinc, .parrafoInter, .parrafoAvanz {
+  color: white;
+  animation: zoomIn;
+  animation-duration: 2s;
+}
+
+.nosotros {
+  color: white;
+  animation: slideInRight;
+  animation-duration: 2s;
+}
+
+.contenidoMultimedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  animation: pulse;
+  animation-duration: 2s;
+}
+
+.fotosNos {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.footer {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 5px;
+  text-align: center;
+  background-color: #343A40;
+  color: white;
+  width: 100%;
+  height: 40px;
+}
+
+.navbar {
+  font-family: Kiwi Maru;
+  font-size: 100%;
+  padding: 5px;
+  padding-left: 15%;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  animation: bounceInRight;
+  animation-duration: 2s;
+}
+
+.mapa {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.fotoFondo {
+  background-image: url(https://images.unsplash.com/photo-1581093809942-95dd1e9af628?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  font-family: Kiwi Maru;
+  font-size: 2rem;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  padding-top: 30rem;
+  padding-left: 3px;
+  font-weight: bold;
+  animation: jackInTheBox;
+  animation-duration: 2s;
+  background-size: 100%;
+}
+
+@media screen and (max-width: 375px) {
+  .fotoFondo {
+    font-size: 2vh;
+    padding-top: 10rem;
+    text-align: left;
+    padding-left: 3px;
   }
-  
-  .formulario {
-    font-family: $font;
+}
+
+@media screen and (max-width: 1000px) {
+  .fotoFondo {
+    font-size: 2vh;
+    padding-top: 10rem;
+    text-align: left;
+    padding-left: 3px;
   }
-  
-  footer {
-    font-style: italic;
-    font-weight: bold;
-    font-size: 20px;
-    text-align: center;
-  }
-  
-  .disponibilidad {
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-family: $font;
-  }
-  
-  .horarios {
-    color: rgb(255, 255, 255);
-  }
-  
-  .video {
-    width: ($widthvid)+100;
-  }
-  
-  .tabla {
-    text-align: center;
-  }
-  
-  .teMostramos {
-    color: rgb(255, 255, 255);
-    font-family: $font;
-    text-align: center;
-    font-weight: bold;
-  }
-  
-  .catPrinc, .catInter, .catAvanz {
-    color: rgb(255, 255, 255);
-    font-family: $font;
-  }
-  
-  .nuestrosEntre, .parrafoPrinc, .parrafoInter, .parrafoAvanz {
-    color: black;
-  }
-  
-  .contenidoMultimedia {
+}
+
+@media screen and (max-width: 375px) {
+  .cards {
+    width: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    animation: pulse;
-    animation-duration: 2s;
+    flex-flow: wrap;
   }
+}
 
-  .nosotros {
-    .nosotros__nos1{
-      font-family: $font;
-      justify-content: left;
-    }
-
-    .nosotros_nos2{
-      font-family: $font;
-      justify-content: left;
-      font-style: normal;
-    }
-
-    .nosotros__nos3{
-      font-family: $font;
-      justify-content: left;
-      font-style: italic;
-    }
-
-    .nosotros__nos4{
-      font-family: $font;
-      justify-content: left;
-      font-style: normal;
-    }
-  }
-  
-  .fotosNos {
+@media screen and (max-width: 1000px) {
+  .cards {
+    width: 100%;
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
+    flex-flow: wrap;
+  }
+}
 
-    .fotosNos__ella{
-      justify-content: left;
-    }
+@media screen and (max-width: 1000px) {
+  .cards div {
+    margin: 10px;
+  }
+}
 
-    .fotosNos__el{
-      justify-content: right;
-    }
-  }
-  
-  .grid {
-    margin: 1em 0;
-    border: 3px solid rgb(0, 0, 0);
-    display: grid;
-    grid-template-columns: fit-content(300px) 1fr;
-    width: 600px;
-    font-family: $font;
-    font-weight: bold;
-  }
-  
-  img {
-    max-width: 99%;
-    display: block;
-  }
-  
-  @media screen and (max-width: 768px) and (min-width: 300px) {
-    .veniEntrenar {
-      display: inline-block;
-    }
-  
-    .contenidoMultimedia {
-      display: inline-block;
-      width: auto;
-    }
-  }
+.container-404 {
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  background: white;
+  padding: 20px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  line-height: 1.7;
+}
+
+.body-404 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://images.unsplash.com/photo-1610337673044-720471f83677?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=666&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 10px 15px;
+  background: rgb(43, 43, 221);
+  border-radius: 5px;
+}
