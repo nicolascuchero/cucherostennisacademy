@@ -1,0 +1,221 @@
+body {
+  background-image: url(https://i0.wp.com/cdn.hipwallpaper.com/i/79/96/aozweG.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.titulo {
+  color: white;
+  font-family: Kiwi Maru;
+  text-align: center;
+  animation: fadeInLeft;
+  animation-duration: 2s; }
+
+.horarios {
+  color: white;
+  font-family: Kiwi Maru;
+  text-align: center;
+  animation: flipInX;
+  animation-duration: 2s; }
+
+.entrenamiento {
+  color: white;
+  font-family: Kiwi Maru;
+  text-align: center;
+  animation: rollIn;
+  animation-duration: 2s; }
+
+.quienesSomos {
+  color: white;
+  font-family: Kiwi Maru;
+  text-align: center;
+  animation: jackInTheBox;
+  animation-duration: 2s; }
+
+.veniEntrenar {
+  color: #00080a;
+  font-family: Kiwi Maru;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  animation: fadeInLeft;
+  animation-duration: 2s; }
+
+.introHistoria {
+  color: white;
+  font-family: Kiwi Maru;
+  font-size: 2vh; }
+
+tr th {
+  color: goldenrod; }
+
+tr td {
+  color: honeydew; }
+
+legend, label {
+  color: honeydew; }
+
+.tituloContact {
+  color: white;
+  font-family: Kiwi Maru;
+  text-align: center;
+  animation: bounceIn;
+  animation-duration: 2s; }
+
+.formulario {
+  font-family: Kiwi Maru;
+  display: flex;
+  justify-content: center; }
+
+.disponibilidad {
+  color: white;
+  text-align: center;
+  font-family: Kiwi Maru; }
+
+.horarios {
+  color: white; }
+
+.tabla {
+  display: flex;
+  justify-content: center;
+  text-align: center; }
+
+.teMostramos {
+  color: white;
+  font-family: Kiwi Maru;
+  text-align: center;
+  font-weight: bold; }
+
+.Principiante, .Intermedia, .Avanzado {
+  color: white;
+  font-family: Kiwi Maru;
+  animation: zoomIn;
+  animation-duration: 2s; }
+
+.nuestrosEntre {
+  color: white; }
+
+.parrafoPrinc, .parrafoInter, .parrafoAvanz {
+  color: white;
+  animation: zoomIn;
+  animation-duration: 2s; }
+
+.nosotros {
+  color: white;
+  animation: slideInRight;
+  animation-duration: 2s; }
+
+.contenidoMultimedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  animation: pulse;
+  animation-duration: 2s; }
+
+.fotosNos {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between; }
+
+.footer {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 5px;
+  text-align: center;
+  background-color: #343A40;
+  color: white;
+  width: 100%;
+  height: 40px; }
+
+.navbar {
+  font-family: Kiwi Maru;
+  font-size: 100%;
+  padding: 5px;
+  padding-left: 15%; }
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  animation: bounceInRight;
+  animation-duration: 2s; }
+
+.mapa {
+  display: flex;
+  justify-content: center;
+  padding: 20px; }
+
+.fotoFondo {
+  background-image: url(https://images.unsplash.com/photo-1581093809942-95dd1e9af628?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  font-family: Kiwi Maru;
+  font-size: 2rem;
+  text-align: center;
+  color: black;
+  padding-top: 30rem;
+  padding-left: 3px;
+  font-weight: bold;
+  animation: jackInTheBox;
+  animation-duration: 2s;
+  background-size: 100%; }
+
+@media screen and (max-width: 375px) {
+  .fotoFondo {
+    font-size: 2vh;
+    padding-top: 10rem;
+    text-align: left;
+    padding-left: 3px; } }
+
+@media screen and (max-width: 1000px) {
+  .fotoFondo {
+    font-size: 2vh;
+    padding-top: 10rem;
+    text-align: left;
+    padding-left: 3px; } }
+
+@media screen and (max-width: 375px) {
+  .cards {
+    width: 100%;
+    display: flex;
+    flex-flow: wrap; } }
+
+@media screen and (max-width: 1000px) {
+  .cards {
+    width: 100%;
+    display: flex;
+    flex-flow: wrap; } }
+
+@media screen and (max-width: 1000px) {
+  .cards div {
+    margin: 10px; } }
+
+.container-404 {
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  background: white;
+  padding: 20px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  line-height: 1.7; }
+
+.body-404 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://images.unsplash.com/photo-1610337673044-720471f83677?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=666&q=80);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.button {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  background: #2b2bdd;
+  border-radius: 5px; }
