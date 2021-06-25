@@ -304,3 +304,13 @@ label {
     background: rgb(43, 43, 221);
     border-radius: 5px;
 }
+
+.tituloHistoria {
+    color: rgb(0, 0, 0);
+    font-family: Kiwi Maru;
+    font-size: 3vh;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    padding-top: 10px;
+}

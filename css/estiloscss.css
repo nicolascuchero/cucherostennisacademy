@@ -219,3 +219,12 @@ legend, label {
   padding: 10px 15px;
   background: #2b2bdd;
   border-radius: 5px; }
+
+.tituloHistoria {
+  color: black;
+  font-family: Kiwi Maru;
+  font-size: 3vh;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  padding-top: 10px; }
